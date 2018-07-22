@@ -134,3 +134,4 @@ C:\Users\shubh\source\repos\MovieBox\MovieBox\bin\AutoMapper.xml
 C:\Users\shubh\source\repos\MovieBox\MovieBox\bin\System.Net.Http.Formatting.xml
 C:\Users\shubh\source\repos\MovieBox\MovieBox\bin\System.Web.Http.xml
 C:\Users\shubh\source\repos\MovieBox\MovieBox\bin\System.Web.Http.WebHost.xml
+C:\Users\shubh\source\repos\MovieBox\MovieBox\bin\Elmah.dll
