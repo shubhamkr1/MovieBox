@@ -12,6 +12,7 @@ namespace MovieBox.Models
         [Required]
         [StringLength(255)] /* Data Annotations */
         public string Name { get; set; }
+
         public bool isSubscribedToNewsletter { get; set; }
 
         
