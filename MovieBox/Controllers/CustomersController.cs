@@ -66,6 +66,7 @@ namespace MovieBox.Controllers
 
         // Example of Mdel binding in action
         [HttpPost]
+        [ValidateAntiForgeryToken]
         // save = This does both create and update
         public ActionResult Save(Customer customer)
         {

@@ -44,5 +44,12 @@
         </label>
     </div>
     @Html.HiddenFor(m => m.Customer.Id)
+    // prevent CSRF attacks
+    @Html.AntiForgeryToken()
     <button type="submit" class="btn btn-primary">Save</button>
 }
+
+@section scripts
+{
+    @Scripts.Render("~/bundles/jqueryval")
+    }
