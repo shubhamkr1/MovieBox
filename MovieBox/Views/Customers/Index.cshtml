@@ -49,6 +49,9 @@ else
 {
     <script>
         $(document).ready(function () {
+            //using jquery datatables plugin
+            $("#customers").DataTable();
+
             //optimized click funtion of this handler
             $("#customers").on("click", ".js-delete",function () {
                 var button = $(this);
